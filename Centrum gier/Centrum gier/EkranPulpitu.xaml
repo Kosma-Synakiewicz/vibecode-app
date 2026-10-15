@@ -1,0 +1,37 @@
+﻿<UserControl x:Class="Centrum_gier.EkranPulpitu"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             Background="#F1F3F5">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="220"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Border Grid.Column="0" Background="#1A1D24" CornerRadius="0,0,0,15">
+            <Grid Margin="20">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <TextBlock Grid.Row="0" Text="ARCADE HUB" Foreground="#6F42C1" FontSize="20" FontWeight="Black" HorizontalAlignment="Center" Margin="0,15,0,40"/>
+
+                <StackPanel Grid.Row="1">
+                    <Button Content="🎮 Kółko i Krzyżyk" x:Name="BtnGrajKolko" Background="#2B303C" Foreground="White" BorderThickness="0" Padding="12" HorizontalContentAlignment="Left" FontSize="13" Margin="0,5" Click="BtnGrajKolko_Click"/>
+                    <Button Content="🐍 Gra Snake" x:Name="BtnGrajSnake" Background="Transparent" Foreground="#A2A6AC" BorderThickness="0" Padding="12" HorizontalContentAlignment="Left" FontSize="13" Margin="0,5" Click="BtnGrajSnake_Click"/>
+                </StackPanel>
+
+                <StackPanel Grid.Row="2">
+                    <TextBlock x:Name="TxtGraczInfo" Text="Gracz: admin" Foreground="White" FontSize="12" HorizontalAlignment="Center" Margin="0,0,0,10" FontWeight="SemiBold"/>
+                    <Button Content="Wyloguj profil" Background="#DC3545" Foreground="White" Padding="10" FontWeight="Bold" BorderThickness="0" Click="BtnWyloguj_Click"/>
+                </StackPanel>
+            </Grid>
+        </Border>
+
+        <Grid Grid.Column="1" Margin="25">
+            <ContentControl x:Name="KontenerGier"/>
+        </Grid>
+    </Grid>
+</UserControl>

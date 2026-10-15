@@ -1,0 +1,29 @@
+﻿<UserControl x:Class="Centrum_gier.GraSnake"
+             xmlns="http://microsoft.com"
+             xmlns:x="http://microsoft.com"
+             Background="White" Unloaded="UserControl_Unloaded">
+
+    <!-- Te linie zmuszają całe okno do przekazywania klawiszy WSAD bezpośrednio do naszej gry -->
+    <UserControl.InputBindings>
+        <KeyBinding Key="W" Command="{Binding KierunekGoraCommand}" CommandParameter="W"/>
+        <KeyBinding Key="S" Command="{Binding KierunekDolCommand}" CommandParameter="S"/>
+        <KeyBinding Key="A" Command="{Binding KierunekLewoCommand}" CommandParameter="A"/>
+        <KeyBinding Key="D" Command="{Binding KierunekPrawoCommand}" CommandParameter="D"/>
+    </UserControl.InputBindings>
+
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,0,0,10">
+            <TextBlock x:Name="TxtWynik" Text="Wynik: 0" FontSize="18" FontWeight="Bold" Margin="0,0,20,0"/>
+            <Button Content="Start / Reset" Padding="10,4" Click="BtnStart_Click" Focusable="False"/>
+        </StackPanel>
+
+        <Border Grid.Row="1" BorderBrush="Black" BorderThickness="3" Width="300" Height="300" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Canvas x:Name="ObszarGry" Background="#212529" Width="300" Height="300"/>
+        </Border>
+    </Grid>
+</UserControl>

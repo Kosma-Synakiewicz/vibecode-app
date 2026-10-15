@@ -1,0 +1,27 @@
+C:\Users\Kosma\source\repos\Centrum gier\Centrum gier\bin\Debug\net8.0-windows\Centrum gier.exe
+C:\Users\Kosma\source\repos\Centrum gier\Centrum gier\bin\Debug\net8.0-windows\Centrum gier.deps.json
+C:\Users\Kosma\source\repos\Centrum gier\Centrum gier\bin\Debug\net8.0-windows\Centrum gier.runtimeconfig.json
+C:\Users\Kosma\source\repos\Centrum gier\Centrum gier\bin\Debug\net8.0-windows\Centrum gier.dll
+C:\Users\Kosma\source\repos\Centrum gier\Centrum gier\bin\Debug\net8.0-windows\Centrum gier.pdb
+C:\Users\Kosma\source\repos\Centrum gier\Centrum gier\obj\Debug\net8.0-windows\EkranLogowania.baml
+C:\Users\Kosma\source\repos\Centrum gier\Centrum gier\obj\Debug\net8.0-windows\EkranPulpitu.baml
+C:\Users\Kosma\source\repos\Centrum gier\Centrum gier\obj\Debug\net8.0-windows\GraKolko.baml
+C:\Users\Kosma\source\repos\Centrum gier\Centrum gier\obj\Debug\net8.0-windows\GraSnake.baml
+C:\Users\Kosma\source\repos\Centrum gier\Centrum gier\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\Kosma\source\repos\Centrum gier\Centrum gier\obj\Debug\net8.0-windows\EkranLogowania.g.cs
+C:\Users\Kosma\source\repos\Centrum gier\Centrum gier\obj\Debug\net8.0-windows\EkranPulpitu.g.cs
+C:\Users\Kosma\source\repos\Centrum gier\Centrum gier\obj\Debug\net8.0-windows\GraKolko.g.cs
+C:\Users\Kosma\source\repos\Centrum gier\Centrum gier\obj\Debug\net8.0-windows\GraSnake.g.cs
+C:\Users\Kosma\source\repos\Centrum gier\Centrum gier\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\Kosma\source\repos\Centrum gier\Centrum gier\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\Kosma\source\repos\Centrum gier\Centrum gier\obj\Debug\net8.0-windows\Centrum gier_MarkupCompile.cache
+C:\Users\Kosma\source\repos\Centrum gier\Centrum gier\obj\Debug\net8.0-windows\Centrum gier.g.resources
+C:\Users\Kosma\source\repos\Centrum gier\Centrum gier\obj\Debug\net8.0-windows\Centrum gier.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kosma\source\repos\Centrum gier\Centrum gier\obj\Debug\net8.0-windows\Centrum gier.AssemblyInfoInputs.cache
+C:\Users\Kosma\source\repos\Centrum gier\Centrum gier\obj\Debug\net8.0-windows\Centrum gier.AssemblyInfo.cs
+C:\Users\Kosma\source\repos\Centrum gier\Centrum gier\obj\Debug\net8.0-windows\Centrum gier.csproj.CoreCompileInputs.cache
+C:\Users\Kosma\source\repos\Centrum gier\Centrum gier\obj\Debug\net8.0-windows\Centrum gier.dll
+C:\Users\Kosma\source\repos\Centrum gier\Centrum gier\obj\Debug\net8.0-windows\refint\Centrum gier.dll
+C:\Users\Kosma\source\repos\Centrum gier\Centrum gier\obj\Debug\net8.0-windows\Centrum gier.pdb
+C:\Users\Kosma\source\repos\Centrum gier\Centrum gier\obj\Debug\net8.0-windows\Centrum gier.genruntimeconfig.cache
+C:\Users\Kosma\source\repos\Centrum gier\Centrum gier\obj\Debug\net8.0-windows\ref\Centrum gier.dll

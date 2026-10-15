@@ -1,0 +1,55 @@
+﻿<UserControl x:Class="Centrum_gier.EkranLogowania"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="400"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Border Grid.Column="0" Background="#6F42C1" CornerRadius="0,0,0,15">
+            <StackPanel VerticalAlignment="Center" Margin="40">
+                <TextBlock Text="ArcadeHub 2D" FontSize="32" FontWeight="Bold" Foreground="White" Margin="0,0,0,10"/>
+                <TextBlock Text="Zaloguj się do swojego profilu gracza, zbieraj punkty i rywalizuj w klasycznych grach retro." FontSize="14" Foreground="#E9ECEF" TextWrapping="Wrap" LineHeight="20"/>
+            </StackPanel>
+        </Border>
+
+        <Grid Grid.Column="1" Background="#FFFFFF" Margin="60,40">
+            <StackPanel x:Name="FormularzLogowania" Visibility="Visible" VerticalAlignment="Center">
+                <TextBlock Text="Zaloguj się" FontSize="24" FontWeight="Bold" Foreground="#212529" Margin="0,0,0,5"/>
+                <TextBlock Text="Wprowadź dane gracza" FontSize="13" Foreground="#6C757D" Margin="0,0,0,30"/>
+
+                <Label Content="Nick gracza" FontSize="12" FontWeight="SemiBold" Foreground="#495057" Padding="0,5"/>
+                <TextBox x:Name="TxtLogin" FontSize="14" Padding="8" Margin="0,0,0,15" BorderBrush="#CED4DA"/>
+
+                <Label Content="Hasło" FontSize="12" FontWeight="SemiBold" Foreground="#495057" Padding="0,5"/>
+                <PasswordBox x:Name="TxtHaslo" FontSize="14" Padding="8" Margin="0,0,0,25" BorderBrush="#CED4DA"/>
+
+                <Button Content="Uruchom Centrum Gier" FontSize="14" FontWeight="Bold" Background="#6F42C1" Foreground="White" Padding="10" Margin="0,0,0,15" Click="BtnZaloguj_Click"/>
+
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                    <TextBlock Text="Nowy gracz? " Foreground="#6C757D"/>
+                    <TextBlock Text="Utwórz profil" Foreground="#6F42C1" FontWeight="SemiBold" Cursor="Hand" MouseDown="PrzelaczDoRejestracji_MouseDown"/>
+                </StackPanel>
+            </StackPanel>
+
+            <StackPanel x:Name="FormularzRejestracji" Visibility="Collapsed" VerticalAlignment="Center">
+                <TextBlock Text="Zarejestruj profil" FontSize="24" FontWeight="Bold" Foreground="#212529" Margin="0,0,0,5"/>
+                <TextBlock Text="Dołącz do gry w kilka sekund" FontSize="13" Foreground="#6C757D" Margin="0,0,0,25"/>
+
+                <Label Content="Wybierz Nick" FontSize="12" FontWeight="SemiBold" Foreground="#495057" Padding="0,5"/>
+                <TextBox x:Name="TxtRejLogin" FontSize="14" Padding="8" Margin="0,0,0,15" BorderBrush="#CED4DA"/>
+
+                <Label Content="Wybierz Hasło" FontSize="12" FontWeight="SemiBold" Foreground="#495057" Padding="0,5"/>
+                <PasswordBox x:Name="TxtRejHaslo" FontSize="14" Padding="8" Margin="0,0,0,25" BorderBrush="#CED4DA"/>
+
+                <Button Content="Zarejestruj profil" FontSize="14" FontWeight="Bold" Background="#198754" Foreground="White" Padding="10" Margin="0,0,0,15" Click="BtnRejestruj_Click"/>
+
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                    <TextBlock Text="Masz już konto? " Foreground="#6C757D"/>
+                    <TextBlock Text="Zaloguj się" Foreground="#6F42C1" FontWeight="SemiBold" Cursor="Hand" MouseDown="PrzelaczDoLogowania_MouseDown"/>
+                </StackPanel>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</UserControl>

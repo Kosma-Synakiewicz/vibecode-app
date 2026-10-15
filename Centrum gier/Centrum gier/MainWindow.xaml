@@ -1,0 +1,31 @@
+﻿<Window x:Class="Centrum_gier.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Retro Arcade Hub" Height="650" Width="950" 
+        WindowStartupLocation="CenterScreen" WindowStyle="None" AllowsTransparency="True" Background="Transparent">
+
+    <Border Background="#F8F9FA" CornerRadius="16" BorderBrush="#E9ECEF" BorderThickness="1">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <!-- Customowy pasek okna Web (Góra) -->
+            <Grid Grid.Row="0" Background="#FFFFFF" MouseDown="PasekGorny_MouseDown">
+                <Grid.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="16,16,0,0"/>
+                    </Style>
+                </Grid.Resources>
+                <TextBlock Text="ArcadeHub Game Center" VerticalAlignment="Center" Margin="20,0,0,0" Foreground="#6C757D" FontWeight="SemiBold" FontSize="12"/>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,0,10,0">
+                    <Button Content="—" Background="Transparent" Foreground="#6C757D" BorderThickness="0" Width="30" Height="30" FontSize="14" Click="BtnMinimalizuj_Click"/>
+                    <Button Content="✕" Background="Transparent" Foreground="#DC3545" BorderThickness="0" Width="30" Height="30" FontSize="14" Click="BtnZamknij_Click"/>
+                </StackPanel>
+            </Grid>
+
+            <ContentControl x:Name="GlownyKontener" Grid.Row="1"/>
+        </Grid>
+    </Border>
+</Window>
